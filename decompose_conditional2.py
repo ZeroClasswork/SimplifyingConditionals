@@ -9,7 +9,7 @@ triglyceride = 120
 
 good_cholesterol = total_cholostrol < 200 and ldl < 100 and triglyceride < 150
 high_cholesterol = 200 < total_cholostrol > 240 or ldl > 160 or triglyceride >= 200
-moderate_cholesterol = 200 <total_cholostrol < 240 or 130 < ldl < 160 or 150 <= triglyceride < 200
+moderate_cholesterol = 200 < total_cholostrol < 240 or 130 < ldl < 160 or 150 <= triglyceride < 200
 
 if good_cholesterol:
     # good level
@@ -28,7 +28,9 @@ else:
 
 def TLC_diet():
     print("Start TLC diet")
-    print("Under this meal plan, only 7 percent of your daily calories \nshould come from saturated fat.")
-    print('Some foods help your digestive tract absorb less cholesterol. For example,\nyour doctor may encourage you to eat more:')
+    print("Under this meal plan, only 7 percent of your daily calories \n \
+          should come from saturated fat.")
+    print('Some foods help your digestive tract absorb less cholesterol.  \
+          For example,\nyour doctor may encourage you to eat more:')
     print('oats, barley, and other whole grains.')
     print('fruits such as apples, pears, bananas, and oranges.')
